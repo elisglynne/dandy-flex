@@ -1,0 +1,32 @@
+// Makes any child div flex. Inherits the parent height
+.position {
+  display: flex;
+  height: inherit;
+  min-height: inherit;
+}
+
+// Vertical Alignment
+.top {
+  align-items: flex-start;
+}
+
+.middle {
+  align-items: center;
+}
+
+.bottom {
+  align-items: flex-end;
+}
+
+// Horizontal Alignment
+.left {
+  justify-content: flex-start;
+}
+
+.center {
+  justify-content: center;
+}
+
+.right {
+  justify-content: flex-end;
+}
